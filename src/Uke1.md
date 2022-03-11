@@ -261,3 +261,45 @@
     #! /bin/bash
 
     ps aux | grep $1
+
+<br>
+<br>
+
+# **Ukens utfordringer!**
+
+## **Ukens utfordring nr. 1**
+## **Finn ut hvilket program (hvor det ligger) som startes opp når du gir kommandoen ls. (hint: prøv  type ls, eventuelt $ unalias ls først). Editer en fil i din hjemmekatalog og kall den ls. Skriv inn følgende shell-script:**
+
+    #! /bin/bash** 
+
+    ls
+
+## **Gjør scriptet ls kjørbart ved hjelp av kommandoen chmod**
+
+    755 ls. 
+
+## **Gi kommandoen**
+
+    ls. 
+    
+## **Er det "din" eller systemets ls som blir utført ? Legg inn linjen**
+
+    echo Dette er mitt ls script.
+## **før ls-kommandoen i ditt ls-script og prøv å få systemet til å liste filene med ditt script**
+
+    med kommandoen LS så brukes systemets LS som blir utført /usr/bin/ls
+
+    men hvis jeg hvis jeg definerner hvor jeg ønsker å kjøre scriptet mitt fra så kjøres mitt script.
+
+    kommando ./ls -> da kjøres mitt script
+
+<br>
+<br>
+
+## **Ukens utfordring nr. 2:**
+
+## **Lag en katalog med navn x. Gå til x, start en editor, skriv noen tegn og lagre filen under navnet -x. Prøv å skifte navn på filen med mv fra -x til x.txt. Hva skjer? Hvordan er det mulig å endre navnet ?**
+
+    Får denne feilmeldingen når jeg prøver å endre navn fra -x til x.txt
+    mv: invalid option -- 'x'
+    Try 'mv --help' for more information.
